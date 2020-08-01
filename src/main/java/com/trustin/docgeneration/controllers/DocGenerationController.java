@@ -15,7 +15,7 @@ import com.trustin.docgeneration.services.DocGenerationService;
 @RestController 
 @RequestMapping(value = "/docgeneration")
 
-public class DocGeneration {
+public class DocGenerationController {
 	@Autowired
 	DocGenerationService docGenerationService;
 	
